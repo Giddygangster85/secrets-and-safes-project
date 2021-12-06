@@ -20,7 +20,7 @@ input.onButtonPressed(Button.AB, function () {
 input.onButtonPressed(Button.B, function () {
     OnOff = 1
 })
-// Establishes radio group and also sets the alarm as disengaged.
+// Establishes radio group and begins the code with alarm deactivated.
 let Pressure_value = 0
 let OnOff = 0
 radio.setGroup(130)
